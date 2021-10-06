@@ -1,0 +1,135 @@
+html,body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+  }
+h4 {
+    font-family: 'Barlow', sans-serif;
+    display: inline-block;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+button {
+    font-family: 'Barlow', sans-serif;
+    background:#01C4C6;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 100;
+    padding: 5px 15px 5px 15px;
+    margin: 10px 0px 10px 20px;
+    
+}
+.flex{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+.flex > div {
+    width: 50%;
+    
+ }
+
+.headings{
+    margin: auto;
+    padding: 10px;
+}
+.right-top{
+    display: flex;
+  justify-content: flex-end;
+}
+
+.first-container{
+    width: 100%;
+    height: auto;
+    background-image: url(images/bannerone.png);
+    background-color: #252527;
+    background-position-x: 70%;
+}
+
+.second-container{
+    width: 100%;
+    height: auto;
+    background-color: #02BCBE;
+    background-image: url(images/image2.png),url(images/note_yellow.png) ;
+    background-repeat: no-repeat;
+    background-position: right, right;
+}
+.all-container{
+    width: 100%;
+    height: auto;
+    background-color: #252527;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.intro{
+    padding: 100px 50px 50px 50px;
+    float: inline-start;
+    width: 40%;
+}
+.head{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 60px; 
+    padding: 0px 0px 30px 0px;
+    color: #FFFFFF;
+}
+.details{
+    font-family: 'Barlow', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    color: #FFFFFF;
+    padding: 0px 0px 30px 0px;
+}
+.centerized{
+    padding: 10vw 30vw 10vw 20vw;
+}
+.centerized1{
+    padding: 5vw 50vw 5vw 25vw;
+}
+.readmore{
+    margin: 0px 0px 30px 0px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #01C4C6;
+}
+.arrow {
+    width: 15px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+.readmore:hover{
+    margin: 0px 0px 30px 0px;
+    font-weight: bold;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+.readmore:hover > .arrow{
+    width: 15px;
+    vertical-align: middle;
+    padding-left: 10px;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(305deg) brightness(103%) contrast(101%);
+}
+@media only screen and (max-width: 450px) {
+    .centerized1{
+        padding: 5vw 10vw 5vw 10vw;
+    }
+    .centerized{
+        padding: 5vw 5vw 5vw 5vw;
+    }
+    .head{
+        
+        font-size: 40px; 
+    }
+    .intro{
+        padding: 5vw 5vw 5vw 5vw;   
+        width: 90%;    
+    }
+    .headings{
+        margin: auto;
+        padding: 0px;
+    }
+ }
+ 
